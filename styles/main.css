@@ -1,0 +1,94 @@
+:root {
+    --bg: #3C5A72;
+    --card: #FEFAF3;
+    --title: #F2C46A;
+    --notification: #FFDCDC;
+
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Prompt, Helvetica, sans-serif;
+}
+
+body{
+    background: var(--bg);
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 300px;
+    border: 1px solid var(--bg);
+    border-radius: 10px;
+    background: var(--card);
+    padding-bottom: 50px;
+}
+
+.title {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.2em;
+    color: var(--bg);
+}
+
+.notification {
+    background: var(--notification);
+    display: none;
+}
+
+.notification p {
+    color: #D96868;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+
+}
+
+.icon{
+  width: 300px;
+  height: 128px;
+}
+
+.icon img{
+  display: block;
+  margin: 0 auto;
+}
+
+.temperature-value {
+    width: 300px;
+    height: 60px;
+}
+
+.temperature-value p{
+  padding: 0;
+  margin: 0;
+  color: var(--bg);
+  font-size: 4em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.temperature-value span{
+  color: var(--bg);
+  font-size: 0.5em;
+}
+
+.temperature-desc p{
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    color: var(--bg);
+    font-size: 1.2em;
+}
+
+.location p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: var(--bg);
+    font-size: 0.8em;
+}
